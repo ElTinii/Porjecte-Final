@@ -1,0 +1,121 @@
+/**
+Colors del Logo
+Blau: #3F6FB5
+Vermell: #B82A27
+Blanc: #FDFDFD
+**/
+header{
+   text-align: center;
+   width: 100%;
+   position:fixed;
+}
+.row{
+    margin: 0 auto;
+}
+nav{
+    width: 100%;
+    background-color: #FDFDFD;
+}
+.navbar-nav {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    justify-content: center;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+li{
+    display: inline;
+    padding-right: 20px;
+}
+.dreta{
+    display: flex;
+    justify-content: right;
+}
+header a{
+    color : #B82A27;
+    font-weight: 700;
+}
+header a:hover{
+    color: #3F6FB5;
+}
+header img{
+    width: 65px;
+    height: 65px;
+}
+
+div.centrar{
+    text-align: center;
+    width: 70%;
+    background-color: rgba(255, 255, 255, 0.756);
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.centre{
+    display: flex;
+    justify-content: center;
+    padding: 15px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.principal{
+    background-image: url("../recursos/fons.jpg");
+    background-attachment: fixed ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 200px;
+}
+div.imatge{
+    background-image: url("../recursos/ordinador.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+footer{
+    background-color: rgba(0, 0, 0, 0.532);
+    color: white;
+    text-align: center;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+}
+.color{
+    background-color: #61acf1;
+    color: #C2D1AF;
+}
+div.pad{
+    padding: 50px;
+    background-color: #C2D1AF;
+}
+div.gris{
+    background-color: rgba(245, 209, 209, 0.532);
+    color: white;
+    color: black;
+}
+p{
+    padding: 10px;
+}
+h3{
+    padding: 30px;
+    padding-bottom: 10px;
+}
+div.serv{
+    padding: 30px;
+    background-color: rgb(182, 227, 220);
+    color: black;
+}
+.quadrat{
+    padding: 20px;
+    box-shadow: inset;
+    height: 300px;
+    width: 300px;
+    background-color: rgb(208, 241, 225) ;
+    margin: 10px;
+    margin-left: 50px;
+}
+.inici{
+    padding-top: 70px;
+}
+body.contacte{
+    padding-left: 10px;
+}
