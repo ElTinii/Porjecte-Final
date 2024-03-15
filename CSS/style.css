@@ -15,6 +15,7 @@ header{
 nav{
     width: 100%;
     background-color: #FDFDFD;
+    z-index: 1000;
 }
 .navbar-nav {
     display: flex;
@@ -252,6 +253,7 @@ h1{
     border: 1px solid #000000;
     border-radius: 10%;
     padding: 20px;
+    z-index: -1;
 }
 div.mostrar ul li{
     padding-top: 20px;

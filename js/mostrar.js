@@ -8,50 +8,82 @@ let acompanyament = document.getElementById('acompanyament');
 let particulars = document.getElementById('particulars');
 
 laboral.addEventListener('mouseover', function(){
-    document.getElementById('labo').removeAttribute('hidden');
+    setTimeout(function() {
+        document.getElementById('labo').removeAttribute('hidden');
+    }, 200);
 });
 laboral.addEventListener('mouseout', function(){
-    document.getElementById('labo').setAttribute('hidden', 'true');
+    setTimeout(function() {
+        document.getElementById('labo').setAttribute('hidden', 'true');
+    }, 200);
 });
 recursos.addEventListener('mouseover', function(){
-    document.getElementById('recurs').removeAttribute('hidden');
+    setTimeout(function() {
+        document.getElementById('recurs').removeAttribute('hidden');
+    }, 200);
 });
 recursos.addEventListener('mouseout', function(){
-    document.getElementById('recurs').setAttribute('hidden', 'true');
+    setTimeout(function() {
+        document.getElementById('recurs').setAttribute('hidden', 'true');
+    }, 200);
 });
 fiscal.addEventListener('mouseover', function(){
-    document.getElementById('fisca').removeAttribute('hidden');
+    setTimeout(function() {
+        document.getElementById('fisca').removeAttribute('hidden');
+    }, 200);
 });
 fiscal.addEventListener('mouseout', function(){
-    document.getElementById('fisca').setAttribute('hidden', 'true');
+    setTimeout(function() {
+        document.getElementById('fisca').setAttribute('hidden', 'true');
+    }, 200);
 });
 comptabilitat.addEventListener('mouseover', function(){
-    document.getElementById('compta').removeAttribute('hidden');
+    setTimeout(function() {
+        document.getElementById('compta').removeAttribute('hidden');
+    }, 200);
 });
 comptabilitat.addEventListener('mouseout', function(){
-    document.getElementById('compta').setAttribute('hidden', 'true');
+    setTimeout(function() {
+        document.getElementById('compta').setAttribute('hidden', 'true');
+    }, 200);
 });
 societari.addEventListener('mouseover', function(){
-    document.getElementById('societar').removeAttribute('hidden');
+    setTimeout(function() {
+        document.getElementById('societar').removeAttribute('hidden');
+    }, 200);
 });
 societari.addEventListener('mouseout', function(){
-    document.getElementById('societar').setAttribute('hidden', 'true');
+    setTimeout(function() {
+        document.getElementById('societar').setAttribute('hidden', 'true');
+    }, 200);
 });
 subvencions.addEventListener('mouseover', function(){
-    document.getElementById('subvencio').removeAttribute('hidden');
+    setTimeout(function() {
+        document.getElementById('subvencio').removeAttribute('hidden');
+    }, 200);
 });
 subvencions.addEventListener('mouseout', function(){
-    document.getElementById('subvencio').setAttribute('hidden', 'true');
+    setTimeout(function() {
+        document.getElementById('subvencio').setAttribute('hidden', 'true');
+    }, 200);
 });
 acompanyament.addEventListener('mouseover', function(){
-    document.getElementById('acompanyamen').removeAttribute('hidden');
+    setTimeout(function() {
+        document.getElementById('acompanyamen').removeAttribute('hidden');
+    }, 200);
 });
 acompanyament.addEventListener('mouseout', function(){
-    document.getElementById('acompanyamen').setAttribute('hidden', 'true');
+    setTimeout(function() {
+        document.getElementById('acompanyamen').setAttribute('hidden', 'true');
+    }, 200);
 });
 particulars.addEventListener('mouseover', function(){
-    document.getElementById('particula').removeAttribute('hidden');
+    setTimeout(function() {
+        document.getElementById('particula').removeAttribute('hidden');
+    }, 200);
 });
 particulars.addEventListener('mouseout', function(){
-    document.getElementById('particula').setAttribute('hidden', 'true');
+    setTimeout(function() {
+        document.getElementById('particula').setAttribute('hidden', 'true');
+    }, 200);
 });
