@@ -3,11 +3,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="CSS/bootstrap.min.css" media="screen">
+    <script src="https://code.jquery.com/jquery-3.6.3.min.js"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
     <link rel="stylesheet" href="./CSS/style.css">
-    <script src="js/jquery.min.js"></script>
-    <script src="js/popper.min.js"></script>
-    <script src="js/bootstrap.min.js"></script>
     <script type="module" src="./js/mostrar.js"></script>
     <title>Inici</title>
 </head>
@@ -15,20 +14,27 @@
     <nav class="navbar navbar-expand-lg navbar-light">
         <div class="navbar-collapse collapse">
             <ul class="navbar-nav mr-auto">
-                <li class="nav-item"><a href="#QuiSom">Qui som?</a></li>
-                <li class="nav-item"><a href="#QueFem">Què fem?</a></li>
-                <li class="nav-item"><a href="#ComHoFem">Com ho fem?</a></li>
-                <li class="nav-item"><a href="./clients.html">Clients</a></li>
+                <li class="nav-item"><a href="#QuiSom">QUI SOM?</a></li>
+                <li class="nav-item"><a href="#QueFem">QUÈ FEM?</a></li>
+                <li class="nav-item"><a href="#ComHoFem">COM HO FEM?</a></li>
+                <li class="nav-item"><a href="#Clients">CLIENTS</a></li>
                 <li><a href="./index.html"><img src="./recursos/GRACER3.jfif" alt="Logo"></a></li>
-                <li class="nav-item"><a href="">Subvencions</a></li>
-                <li class="nav-item"><a href="./contacte.html">Contacte</a></li>
-                <li class="nav-item"><a href="">Noticies</a></li>
-                <li class="nav-item"><a href="">Idioma</a></li>
+                <li class="nav-item"><a href="">SUBVENCIONS</a></li>
+                <li class="nav-item"><a href="./contacte.html">CONTACTE</a></li>
+                <li class="nav-item"><a href="">NOTICIES</a></li>
+                <li class="nav-item"> <a href="">RENDA</a></li>
+                <li class="nav-item"><a href="">IDIOMA</a></li>
             </ul>
         </div>
     </nav>
 </header>
 <body>
+    <div id="inici">
+        <div id="slogan" class="dreta">
+            <h1>LA TEVA TRANQUILITAT, LA NOSTRA PRIORITAT: <br>
+                Assessoria propera i de confiança</h1>
+        </div>
+    </div>
     <div class="centre principal" id="QuiSom">
         <div class="centrar">
             <div>
@@ -45,96 +51,25 @@
                 autònoms.</p>
         </div>
     </div>
-    <div class="row imatge" id="queFem">
-        <div class="col-7 row">
+    <div id="QueFem">
+        <div>
             <h1>Que fem?</h1>
-            <div class="row fem">
-                <div id="laboral"> Laboral</div>
-                <div id="recursos"> Recursos Humans</div>
-                <div id="fiscal">Fiscal</div>
-                <div id="comptabilitat">Comptabilitat</div>
-            </div>
-            <div class="row fem">
-                <div id="societari"> Societari</div>
-                <div id="subvencions">Subvencions</div>
-                <div id="acompanyament">Acompanyament econòmic</div>
-                <div id="particulars">Particulars</div>
-            </div>
         </div>
-        <div class="col-5">
-            <div id="info">
-                <div id="labo" class="mostrar" hidden="true">
-                    <h2>Laboral</h2>
-                    <ul>
-                        <li>Gestió de nòmines i Seguros socials.</li>
-                        <li>Assessorament en matèria de relacions laborals i conflictes laborals.</li>
-                        <li>Gestió d'expedients de contractació i acomiadaments.</li>
-                    </ul>
+        <div class="row">
+            <div class="container-fluid">
+                <div class="row">
+                  <div class="col-md-3 h-400 fem" id="laboral">Laboral</div>
+                  <div class="col-md-3 h-400 fem" id="recursos">Recursos Humans</div>
+                  <div class="col-md-3 h-400 fem" id="fiscal">Fiscal</div>
+                  <div class="col-md-3 h-400 fem" id="comptabilitat">Comptabilitat</div>
                 </div>
-                <div id="recurs" class="mostrar" hidden="true">
-                    <h2>Recursos Humans</h2>
-                    <ul>
-                        <li>Selecció de personal</li>
-                        <li>Resolució de conflictes</li>
-                    </ul>
+                <div class="row">
+                  <div class="col-md-3 h-400 fem" id="societari">Societari</div>
+                  <div class="col-md-3 h-400 fem" id="subvencions">Subvencions</div>
+                  <div class="col-md-3 h-400 fem" id="acompanyament">Acompanyament econòmic</div>
+                  <div class="col-md-3 h-400 fem" id="particulars">Particulars</div>
                 </div>
-                <div id="fisca" class="mostrar" hidden="true">
-                    <h2>Fiscal</h2>
-                    <ul>
-                        <li>Planificació fiscal per a minimitzar la càrrega impositiva.</li>
-                        <li>Preparació i presentació d'impostos.</li>
-                        <li>Representació davant l&#39;administració tributària en procediments
-                            d&#39;inspecció i recursos.</li>
-                    </ul>
-                </div>
-                <div id="compta" class="mostrar" hidden="true">
-                    <h2>Comptabilitat</h2>
-                    <ul>
-                        <li>Gestió de la comptabilitat.</li>
-                        <li>Elaboració d&#39;estats financers i comptes anuals.</li>
-                        <li>Anàlisi d&#39;estats financers i ràtios financers.</li>
-                        <li>Implementació de millores en sistemes comptables i de gestió financera.</li>
-                    </ul>
-                </div>
-                <div id="societar" class="mostrar" hidden="true">
-                    <h2>Societari</h2>
-                    <ul>
-                        <li>Constitució i dissolució de societats.</li>
-                        <li>Redacció i modificació d&#39;estatuts socials i acords de socis.</li>
-                        <li>Compliment d&#39;obligacions societàries.</li>
-                        <li>Acompanyament a la incorporació societària</li>
-                    </ul>
-                </div>
-                <div id="subvencio" class="mostrar" hidden="true">
-                    <h2>Subvencions</h2>
-                    <ul>
-                        <li>Recerca de subvencions</li>
-                        <li>Orientació especialitzada</li>
-                        <li>Acompanyament en la petició i seguiment posterior.</li>
-                    </ul>
-                </div>
-                <div id="acompanyamen" class="mostrar" hidden="true">
-                    <h2>Acompanyament econòmic</h2>
-                    <ul>
-                        <li>Anàlisi de la realitat econòmica de l’empresa</li>
-                        <li>Acompanyament en la gestió integral</li>
-                    </ul>
-                </div>
-                <div id="particula" class="mostrar" hidden="true">
-                    <h2>Particulars</h2>
-                    <ul>
-                        <li>Declaracions de Renda i Patrimoni</li>
-                        <li>Contractes entre particulars</li>
-                        <li>Declaració Impost Transmissions patrimonials</li>
-                        <li>Certificats Digitals</li>
-                        <li>Requeriments Hisenda</li>
-                        <li>Assessorament en temes fiscals</li>
-                        <li>Assessorament en temes laboral</li>
-                        <li>Subvencions</li>
-                    </ul>
-                </div>
-            </div>
-        </div>
+              </div>
     </div>
     <div class="row principal centrem" id="ComHoFem">
         <div class="cercle">
@@ -150,14 +85,54 @@
                 innovació, creativitat i generació de valor.</p>
         </div>
     </div>
-    <div id="clients">
         <h1>Els nostres clients</h1>
-        <div class="centrem">
-            <a href="https://www.meseducacio.coop/"><img src="./recursos/Logo +Educació.png" alt="+Educacio"></a>
-            <a href="https://blinkvideo.es/"><img src="./recursos/Blink_Full_Logo_cat.png" alt="CDJ"></a>
-            <a href="https://habicoop.cat/"><img src="./recursos/Logo Habicoop amb lletres.JPG" alt="Habicoop"></a>
-        </div>
-    </div>
+        <div id="clients" class="carousel slide" data-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <div class="centrem">
+                    <a href="https://www.meseducacio.coop/"><img src="./recursos/Logo +Educació.png" alt="+Educacio"></a>
+                    <a href="https://blinkvideo.es/"><img src="./recursos/Blink_Full_Logo_cat.png" alt="Blink"></a>
+                    <a href="https://habicoop.cat/"><img src="./recursos/Logo Habicoop amb lletres.JPG" alt="Habicoop"></a>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <div class="centrem">
+                    <a href="https://www.mixite.cat/"><img src="./recursos/Recurso 7.png" alt="Mixité"></a>
+                    <a href="https://lleurequalia.cat/"><img src="./recursos/Qualia_logos_posit.png" alt="Qualia"></a>
+                    <a href="https://www.polellmontseny.com/"><img src="./recursos/MARCA_EL POLELL (1).jpg" alt="El Polell"></a>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <div class="centrem">
+                    <a href="https://ignia.cat/"><img src="./recursos/logotip_positiu.png" alt="ignia"></a>
+                    <a href="https://plataformajoveslescorts.wordpress.com/"><img src="./recursos/LogoPlataformaCOLOR-01.png" alt="plataformajoveslescorts"></a>
+                    <a href="https://instituciobalmes.wordpress.com/"><img src="./recursos/Logo_Institucio (1).JPG" alt="institucio balmes"></a>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <div class="centrem">
+                    <a href="https://fundacioseira.coop/"><img src="./recursos/Logo Seira.png" alt="Siera"></a>
+                    <a href="https://gatuari.cat/"><img src="./recursos/logo gran sense fons.png" alt="gatuari"></a>
+                    <a href="https://afadisbaixmontseny.org/"><img src="./recursos/logo alta resolució.jpg" alt="afadis"></a>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <div class="centrem">
+                    <a href="https://www.meseducacio.coop/"><img src="./recursos/CDJ-logo-03.jpg" alt="CDJ"></a>
+                    <a href="https://www.remenat.org/"><img src="./recursos/drawing.png" alt="remenat"></a>
+                    <a href="https://www.cooperativestreball.coop/"><img src="./recursos/Cooperatives de Treball.jpg" alt="Cooperatives de Treball"></a>
+                </div>
+              </div>
+            </div>
+            <a class="carousel-control-prev" href="#clients" role="button" data-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#clients" role="button" data-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="sr-only">Next</span>
+            </a>
+          </div>
     <footer>
         <p>Politica de privacitat   Avis legal    Cookies    Contacte</p>
     </footer>
