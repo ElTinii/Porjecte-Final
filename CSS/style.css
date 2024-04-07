@@ -217,15 +217,18 @@ div#clients h1{
     text-align: center;
 }
 
-div.container{
+div.container-fluid{
     padding: 0px;
     margin:0px;
 }
-.fem{
+.fem {
     border: 1px solid #00000066;
+    border-radius: 20px;
+    position: relative;
+    box-sizing: border-box;
 }
-.col-md-3 {
-    height: 200px; /* Ajusta este valor a la altura que desees */
+.col {
+    height: 250px; /* Ajusta este valor a la altura que desees */
 }
 .h-400 {
     background-color: #3f6eb545;
@@ -234,6 +237,7 @@ div.container{
     align-items: center;
     text-align: center;
     font-size: 36px;
+    margin: 10px;
 }
 .h-400::after {
     content: ""; /* Inicialmente, no hay texto */
@@ -242,12 +246,12 @@ div.container{
     left: 0;
     width: 100%;
     height: 100%;
-    color: #000; /* Cambia esto al color que quieras para el texto */
-    background-color: #aaedd5dd; /* Cambia esto al color que quieras para el fondo */
+    color: #3F6FB5; 
+    background-color: #89c8e3c3;
     padding: 10px;
     border-radius: 5px;
-    opacity: 0; /* Inicialmente, el texto es completamente transparente */
-    transition: opacity 0.5s; /* La opacidad cambiará durante un período de 0.5 segundos */
+    opacity: 0;
+    transition: opacity 0.5s;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -255,13 +259,15 @@ div.container{
 
 #laboral:hover::after {
     font-size: 16px;
+    border-radius: 20px;
     white-space: pre-wrap;
     text-align: left;
     content: "-Gestió de nòmines i Seguros socials. \A -Assessorament en matèria de relacions laborals i conflictes laborals. \A -Gestió d’expedients de contractació i acomiadaments."; 
-    opacity: 1; /* Cuando se pasa el mouse sobre el div, el texto se vuelve completamente opaco */
+    opacity: 1;
 }
 #recursos:hover::after {
     font-size: 16px;
+    border-radius: 20px;
     white-space: pre-wrap;
     text-align: left;
     content: "-Selecció de personal \A -Resolució de conflictes"; 
@@ -269,6 +275,7 @@ div.container{
 }
 #fiscal:hover::after {
     font-size: 16px;
+    border-radius: 20px;
     white-space: pre-wrap;
     text-align: left;
     content: "-Planificació fiscal per a minimitzar la càrrega impositiva. \A -Preparació i presentació d'impostos. \A -Representació davant l'administració tributària en procediments"; 
@@ -276,6 +283,7 @@ div.container{
 }
 #comptabilitat:hover::after {
     font-size: 16px;
+    border-radius: 20px;
     white-space: pre-wrap;
     text-align: left;
     content: "-Gestió de la comptabilitat. \A -Elaboració d'estats financers i comptes anuals. \A -Anàlisi d'estats financers i ràtios financers. \A -Implementació de millores en sistemes comptables i de gestió financera."; 
@@ -283,6 +291,7 @@ div.container{
 }
 #societari:hover::after {
     font-size: 16px;
+    border-radius: 20px;
     white-space: pre-wrap;
     text-align: left;
     content: "-Constitució i dissolució de societats. \A -Redacció i modificació d'estatuts socials i acords de socis. \A -Compliment d'obligacions societàries. \A -Acompanyament a la incorporació societària" ; 
@@ -290,6 +299,7 @@ div.container{
 }
 #subvencions:hover::after {
     font-size: 16px;
+    border-radius: 20px;
     white-space: pre-wrap;
     text-align: left;
     content: "-Acompanyament en la petició i seguiment posterior. \A -Orientació especialitzada \A -Recerca de subvencions"; 
@@ -297,6 +307,7 @@ div.container{
 }
 #acompanyament:hover::after {
     font-size: 16px;
+    border-radius: 20px;
     white-space: pre-wrap;
     text-align: left;
     content: "-Acompanyament en la gestió integral \A -Anàlisi de la realitat econòmica de l'empresa"; 
@@ -305,6 +316,7 @@ div.container{
 
 #particulars:hover::after {
     font-size: 16px;
+    border-radius: 20px;
     white-space: pre-wrap;
     text-align: left;
     content: "-Declaracions de renda i patrimoni \A -Contractes entre particulars \A -Declaració Impost Transmissions patrimonials \A -Certificats Digitals \A -Requeriments Hisenda \A -Assessorament en temes fiscals \A -Assessorament en temes laboral \A -Subvencions"; 
