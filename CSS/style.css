@@ -159,7 +159,7 @@ body.contacte{
 /**Que Fem**/
 #QueFem{
     width: 100%;
-    height: 550px;
+    height: 600px;
 }
 div#queFem h1{
     margin: 30px;
@@ -231,6 +231,10 @@ div.container-fluid{
     display: flex;
     margin: 10px;
 }
+.h-400:hover {
+    color: white;
+    background-color: #3f6eb5;
+}
 div.col{
     text-align: left;
     margin-bottom: 20px;
@@ -246,76 +250,15 @@ div.col ul{
     padding-top: 10px;
     padding-left: 0px;
 }
-/* #laboral:hover::after {
-    margin-bottom: 20px;
-    font-size: 16px;
-    border-radius: 20px;
-    white-space: pre-wrap;
-    text-align: left;
-    content: "-Gestió de nòmines i Seguros socials. \A -Assessorament en matèria de relacions laborals i conflictes laborals. \A -Gestió d’expedients de contractació i acomiadaments."; 
-    opacity: 1;
-} */
-/* #recursos:hover::after {
-    font-size: 16px;
-    border-radius: 20px;
-    white-space: pre-wrap;
-    text-align: left;
-    content: "-Selecció de personal \A -Resolució de conflictes"; 
-    opacity: 1;
-}
-#fiscal:hover::after {
-    font-size: 16px;
-    border-radius: 20px;
-    white-space: pre-wrap;
-    text-align: left;
-    content: "-Planificació fiscal per a minimitzar la càrrega impositiva. \A -Preparació i presentació d'impostos. \A -Representació davant l'administració tributària en procediments"; 
-    opacity: 1;
-}
-#comptabilitat:hover::after {
-    font-size: 16px;
-    border-radius: 20px;
-    white-space: pre-wrap;
-    text-align: left;
-    content: "-Gestió de la comptabilitat. \A -Elaboració d'estats financers i comptes anuals. \A -Anàlisi d'estats financers i ràtios financers. \A -Implementació de millores en sistemes comptables i de gestió financera."; 
-    opacity: 1;
-}
-#societari:hover::after {
-    font-size: 16px;
-    border-radius: 20px;
-    white-space: pre-wrap;
-    text-align: left;
-    content: "-Constitució i dissolució de societats. \A -Redacció i modificació d'estatuts socials i acords de socis. \A -Compliment d'obligacions societàries. \A -Acompanyament a la incorporació societària" ; 
-    opacity: 1;
-}
-#subvencions:hover::after {
-    font-size: 16px;
-    border-radius: 20px;
-    white-space: pre-wrap;
-    text-align: left;
-    content: "-Acompanyament en la petició i seguiment posterior. \A -Orientació especialitzada \A -Recerca de subvencions"; 
-    opacity: 1;
-}
-#acompanyament:hover::after {
-    font-size: 16px;
-    border-radius: 20px;
-    white-space: pre-wrap;
-    text-align: left;
-    content: "-Acompanyament en la gestió integral \A -Anàlisi de la realitat econòmica de l'empresa"; 
-    opacity: 1;
-}
-
-#particulars:hover::after {
-    font-size: 16px;
-    border-radius: 20px;
-    white-space: pre-wrap;
-    text-align: left;
-    content: "-Declaracions de renda i patrimoni \A -Contractes entre particulars \A -Declaració Impost Transmissions patrimonials \A -Certificats Digitals \A -Requeriments Hisenda \A -Assessorament en temes fiscals \A -Assessorament en temes laboral \A -Subvencions"; 
-    opacity: 1;
-} */
 
 #QueFem{
     margin-top: 30px;
     margin-bottom: 30px;
+    padding-left: 20px;
+}
+div#QueFem h1{
+    width: 100%;
+    margin-bottom: 50px;
 }
 h5 img{
     width: 40px;
