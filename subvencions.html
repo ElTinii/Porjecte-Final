@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://code.jquery.com/jquery-3.6.3.min.js"></script>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./Contact V17_files/main.css">
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
     <link rel="stylesheet" href="./CSS/style.css">
     <title>Subvencions</title>
@@ -40,19 +41,30 @@
             <div class="col-4">
                 <h5>Recomenador de subvencions</h5>
                 <p>Rellena con tus datos este formulario, y podremos contactarte para asesorarte con una selección de las ayudas y subvenciones más adecuadas, en base a tus datos.</p>
-                <form action="">
-                    <label for="nom">Nom</label><br>
-                    <input type="text" name="nom" id="nom" placeholder="Nom"><br>
-                    <label for="email" class="label-input100">Email</label><br>
-                    <input type="email" name="email" id="email" class="wrap-input100 rs2-wrap-input100 validate-input" placeholder="Email"><br>
-                    <label for="">Provincies</label><br>
+                <div class="container-contact100">
+                    <div class="wrap-contact100">
+                        <form class="contact100-form validate-form">
+                            <label class="label-input100" for="nom">Nom *</label>
+                            <div class="wrap-input100 validate-input">
+                                <input id="nom" class="input100" type="text" name="nom"
+                                    placeholder="Escriu aqui el teu nom">
+                                <span class="focus-input100"></span>
+                            </div>
+                            <label class="label-input100" for="email">Correu electronic *</label>
+                            <div class="wrap-input100 validate-input"
+                                data-validate="Valid email is required: ex@abc.xyz">
+                                <input id="email" class="input100" type="text" name="email"
+                                    placeholder="Ex. exemple@email.com">
+                                <span class="focus-input100"></span>
+                            </div>
+                    <label class="label-input100" for="">Provincies</label><br>
                     <select name="provincies" id="provincies">
                         <option value="Barcelona">Barcelona</option>
                         <option value="Girona">Girona</option>
                         <option value="Lleida">Lleida</option>
                         <option value="Tarragona">Tarragona</option>
                     </select><br>
-                    <label for="solicitant">Tipus de solicitant</label>
+                    <label class="label-input100" for="solicitant">Tipus de solicitant</label>
                     <select name="" id="">
                         <option value="">Asociaciones o fundaciones</option>
                         <option value="">Autónoms</option>
@@ -62,9 +74,15 @@
                         <option value="">Particular/Familia</option>
                         <option value="">PYMEs</option>
                         <option value="">Start Up</option>
-                    </select>
-                    <button type="submit">Enviar</button>
+                    </select><br>
+                    <div class="container-contact100-form-btn">
+						<button class="contact100-form-btn">
+							Enviar
+						</button>
+					</div>
                 </form>
+                </div>
+                </div>
             </div>
         </div>
     </div>
