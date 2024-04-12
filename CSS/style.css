@@ -264,3 +264,64 @@ h5 img{
     width: 40px;
     height: 40px;
 }
+#renda{
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+#textrenda{
+    justify-content: center;
+    text-align: center;
+}
+.container{
+padding: 0px;
+}
+#imagenRenda {
+    padding: 20px;
+    position: relative;
+    background-image: linear-gradient(rgba(255, 255, 255, 0.637), rgba(255, 255, 255, 0.637)), url("../recursos/PartdefonsRenda.jpg");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+div.container{
+    margin-bottom: 25px;
+}
+#preu {
+    background-color: #3F6FB5;
+    padding: 10px;
+    color: white;
+    text-align: center;
+}
+
+#informacio {
+    background-color: #fff;
+    text-align: center;
+    border: 1px solid #ddd;
+}
+
+#informacio ul {
+    list-style-type: none;
+    margin-bottom: 0px;
+    padding: 0;
+}
+
+#informacio button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+}
+#informacio ul li {
+    padding: 25px; /* Añade un poco de espacio alrededor de cada opción */
+    border-bottom: 1px solid #000000; /* Añade una línea debajo de cada opción */
+}
+
+#informacio ul li:last-child {
+    border-bottom: none; /* Elimina la línea debajo de la última opción */
+}
