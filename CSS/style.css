@@ -307,7 +307,7 @@ div.container{
 }
 
 #informacio button {
-    background-color: #007bff;
+    background-color: #3F6FB5;
     color: #fff;
     border: none;
     padding: 10px 20px;
@@ -324,4 +324,13 @@ div.container{
 
 #informacio ul li:last-child {
     border-bottom: none; /* Elimina la línea debajo de la última opción */
+}
+select#casella, select#venut, select#autonom, select#contactem, select#trobat, select#solicitant, select#provincies{
+    padding: 10px;
+}
+a{
+    color: white;
+}
+a:hover{
+    color:white;
 }
