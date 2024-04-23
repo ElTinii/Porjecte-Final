@@ -232,6 +232,8 @@ div.container-fluid{
 .h-400 {
     display: flex;
     margin: 10px;
+    margin-left: 0px;
+    padding-left: 20px;
 }
 .h-400:hover {
     color: white;
@@ -243,7 +245,6 @@ div.col{
 }
 
 div.col ul li{
-    list-style: none;
     padding: 0px;
     font-size: 16px;
 }
@@ -262,7 +263,7 @@ div#QueFem h1{
     width: 100%;
     margin-bottom: 50px;
 }
-h5{
+h5.fem{
     color: #3F6FB5;
 
 }
@@ -307,7 +308,6 @@ div.container{
 }
 
 #informacio ul {
-    list-style-type: none;
     margin-bottom: 0px;
     padding: 0;
 }
@@ -326,6 +326,7 @@ div.container{
 #informacio ul li {
     padding: 25px; /* Añade un poco de espacio alrededor de cada opción */
     border-bottom: 1px solid #000000; /* Añade una línea debajo de cada opción */
+    list-style-type: none;
 }
 
 #informacio ul li:last-child {
