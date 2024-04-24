@@ -58,7 +58,7 @@ header img{
 div#inici{
     padding-top: 400px;
     padding-bottom: 400px;
-background-image: url("../recursos/FotoInici.jpg");
+background-image: url("../recursos/quisom.png");
 background-repeat: no-repeat;
 background-size: cover;
 background-position: center;
@@ -76,7 +76,7 @@ div#slogan{
 }
 /**Qui Som**/
 #QuiSom{
-    background-image: url("../recursos/FotoQuiSom.jpg");
+    background-image: url("../recursos/imagen_2024-04-22_143459290.png");
     background-attachment: fixed ;
     background-repeat: no-repeat;
     background-size: cover;
