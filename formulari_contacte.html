@@ -172,6 +172,15 @@
 						<input id="dataDNI" class="input100" type="date" name="dataDNI">
 						<span class="focus-input100"></span>
 					</div>
+					<label class="label-input100" for="trobat">HAS TREBALLAT PER MÉS D’UNA EMPRESA</label>
+                    <div class="wrap-input100 validate-input">
+                        <select class="input100" name="" id="trobat">
+                            <option value="" selected disabled>Seleccioni una opció</option>
+							<option value="si">SÍ</option>
+							<option value="no">NO</option>
+                        </select>
+                        <span class="focus-input100"></span>
+                    </div>
                     <label class="label-input100" for="casella">Has llogat una vivenda l'any anterior</label>
                     <div class="wrap-input100 validate-input">
                         <select class="input100" name="" id="casella">
@@ -274,6 +283,11 @@
 						<textarea id="message" class="input100" name="message"
 							placeholder="Escriu aqui el teu misssatge..."></textarea>
 						<span class="focus-input100"></span>
+					</div>
+					<div class=" validate-input"
+						data-validate="Message is required">
+						<input type="checkbox" name="politica" id="politica">
+						<label class="" for="politica">Acepto la política de protección de datos</label>
 					</div>
 					<div class="container-contact100-form-btn">
 						<button class="contact100-form-btn">
