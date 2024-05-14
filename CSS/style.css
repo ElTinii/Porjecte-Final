@@ -355,3 +355,11 @@ div.hov{
     display: table;
     clear: both;
 }
+#whats{
+    margin-right: 10px;
+    height: 15px;
+    width: 15px;
+}
+#ofertas2{
+    margin-top: 800px;
+}
