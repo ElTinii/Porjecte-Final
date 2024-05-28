@@ -363,3 +363,6 @@ div.hov{
 #ofertas2{
     margin-top: 800px;
 }
+.dropdown:hover .dropdown-menu {
+    display: block;
+}
